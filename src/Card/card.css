@@ -1,0 +1,15 @@
+section {
+  transition: 0.5s;
+  cursor: pointer;
+}
+section:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+.cards {
+  width: 320px;
+  height: 20vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: white;
+  padding: 10px;
+}

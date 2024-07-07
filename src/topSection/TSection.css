@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header_container {
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header_h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 15vh;
+  font-weight: 700;
+}
+form {
+  display: flex;
+  gap: 20px;
+  width: 80vw;
+}
+#input1 {
+  width: 60vw;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+}
+#input1:focus {
+  box-shadow: 0px 0px 3px 3px black;
+}
+
+.search {
+  width: 15vw;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: 600;
+  transition: 0.5s;
+  text-align: center;
+}
+.search:hover {
+  background-color: rgb(41, 41, 41);
+}
+@media (max-width: 1080px) {
+  .header_h1 {
+    font-size: 10vh;
+  }
+}
+@media (max-width: 720px) {
+  .header_h1 {
+    font-size: 7vw;
+  }
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .search {
+    width: 50vw;
+    height: 6vh;
+  }
+}
+.error {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+  background-color: wheat;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.error:hover {
+  background-color: black;
+  font-weight: 700;
+}

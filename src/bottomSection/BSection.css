@@ -1,0 +1,14 @@
+.main_content {
+  border: 0.1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 0 0;
+  background: rgba(255, 255, 255, 0.54);
+}
+.main_container {
+  height: 90%;
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
